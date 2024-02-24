@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1 class="judul">MY WEBSITE</h1>
+            <ul>
+                <li><a href="belajarCSS/cssWeb.html"  onclick="activateLink(event)" class="active">home</a></li>
+                <li><a href="moveWeb/about.html">about</a></li>
+                <li><a href="moveWeb/contact.html">contact</a></li>
+            </ul>
+        </header>
+        <div class="hero"></div>
+        <main>
+            <h2 class="judul">FILOSOFI BAMBU</h2>
+            <p class="penulis">di tulis oleh <a href="moveWeb/about.html">faisal</a> pada 1 januari 2024</p>
+
+            <p>Filosofi bambu adalah sebuah konsep yang mengambil inspirasi dari sifat-sifat bambu dalam pertumbuhan dan perkembangannya, yang kemudian diaplikasikan dalam kehidupan manusia. Konsep ini sering kali digunakan sebagai metafora untuk menggambarkan prinsip-prinsip yang penting dalam menjalani kehidupan, khususnya terkait dengan ketahanan, fleksibilitas, kesabaran, dan pertumbuhan.</p>
+
+                <p>Ada beberapa prinsip utama dalam filosofi bambu yang dapat diterapkan dalam berbagai aspek kehidupan, antara lain:</p>
+                
+                <p>Ketahanan: Bambu memiliki struktur yang kuat dan elastis, mampu bertahan dalam berbagai kondisi ekstrem seperti angin kencang dan badai. Filosofi bambu mengajarkan kita untuk menjadi kuat dan tangguh dalam menghadapi rintangan dan tantangan hidup.</p>
+                
+                <p>Fleksibilitas: Bambu memiliki kemampuan untuk membungkuk tetapi tidak patah saat terkena tekanan. Ini mengajarkan kita pentingnya fleksibilitas dalam menyesuaikan diri dengan perubahan dan tantangan, serta kemampuan untuk tetap tegar dan tidak menyerah di tengah kesulitan.</p>
+                
+                <p>Kesabaran: Bambu membutuhkan waktu yang cukup lama untuk tumbuh dan berkembang, namun sekali mencapai titik pertumbuhan tertentu, pertumbuhannya dapat sangat cepat. Filosofi bambu mengajarkan kita untuk bersabar dalam proses pencapaian tujuan dan menghargai pentingnya kesabaran dalam meraih keberhasilan.</p>
+                
+                <p>Pertumbuhan berkelanjutan: Bambu tumbuh secara bertahap namun konsisten. Filosofi bambu mengajarkan kita untuk terus menerus berusaha dan berkembang, meskipun terkadang hasilnya tidak langsung terlihat, namun dengan usaha yang konsisten, kita dapat mencapai pertumbuhan yang signifikan.<>
+                
+                Filosofi bambu sering digunakan sebagai inspirasi dalam bidang-bidang seperti kepemimpinan, motivasi diri, dan pengembangan pribadi, karena konsepnya yang kuat dan relevan dengan berbagai aspek kehidupan manusia.</p>
+        </main>
+        <footer>
+            <p>Copyright  <span id="tanggalwaktu"></span></p>
+            <script>
+            var dt = new Date();
+            document.getElementById("tanggalwaktu").innerHTML = dt.toDateString();
+            </script>
+        </footer>
+    </div>
+
+</body>
+</html>

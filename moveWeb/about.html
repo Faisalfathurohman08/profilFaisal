@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB CSS</title>
+    <link rel="stylesheet" href="/belajarCSS/moveWeb/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1 class="judul">MY WEBSITE</h1>
+            <ul>
+                <li><a href="/belajarCSS/cssWeb.html" >home</a></li>
+                <li><a href="/belajarCSS/moveWeb/about.html" onclick="activateLink(event)" class="active">about</a></li>
+                <li><a href="/belajarCSS/moveWeb/contact.html">contact</a></li>
+            </ul>
+        </header>
+        <div class="hero"></div>
+        <main>
+            <h2 class="judul">Faisal Fathu Rohman, S.KOM</h2>
+            <p class="penulis">di tulis oleh <a href="">faisal</a> pada 1 januari 2024</p>
+
+            <P>Saya adalah seorang individu yang penuh semangat dan berorientasi pada pencapaian. Saya memiliki keinginan yang kuat untuk terus belajar dan berkembang, serta selalu mencari cara untuk meningkatkan diri saya baik secara pribadi maupun profesional.</P>
+
+<P>Saya dikenal sebagai sosok yang sangat tekun dan tangguh dalam menyelesaikan tugas-tugas yang dihadapi. Saya memiliki kemampuan yang baik dalam beradaptasi dengan perubahan dan memiliki ketahanan yang tinggi dalam menghadapi tantangan.</P>
+
+<P>Saya sangat menyukai kolaborasi dan bekerja dalam tim. Saya percaya bahwa kerja sama tim yang solid adalah kunci keberhasilan dalam mencapai tujuan bersama. Saya juga memiliki kemampuan komunikasi yang baik, yang memungkinkan saya untuk efektif berinteraksi dengan berbagai jenis orang dari berbagai latar belakang.</P>
+
+<P>Ketekunan dan integritas adalah prinsip-prinsip yang sangat saya pegang teguh dalam hidup saya. Saya selalu berusaha untuk menjaga komitmen saya dan bertindak dengan integritas dalam semua situasi.</P>
+
+<P>Selain itu, saya juga memiliki minat yang luas di berbagai bidang, mulai dari seni hingga teknologi. Saya percaya bahwa keragaman minat dan pengalaman hidup membantu saya untuk memperoleh wawasan yang lebih luas dan menjadi individu yang lebih terbuka dan berpengetahuan.</P>
+
+<p>keseluruhan, saya adalah individu yang bertekad untuk meraih kesuksesan, memiliki kemampuan yang kuat dalam beradaptasi dan berkolaborasi, serta memegang teguh prinsip integritas dalam semua aspek kehidupan saya.</p>
+        </main>
+        <footer>
+            <p>Copyright  <span id="tanggalwaktu"></span></p>
+            <script>
+            var dt = new Date();
+            document.getElementById("tanggalwaktu").innerHTML = dt.toDateString();
+            </script>
+        </footer>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1 class="judul">MY WEBSITE</h1>
+            <ul>
+                <li><a href="/belajarCSS/cssWeb.html" >home</a></li>
+                <li><a href="/belajarCSS/moveWeb/about.html" >about</a></li>
+                <li><a href="/belajarCSS/moveWeb/contact.html" onclick="activateLink(event)" class="active">contact</a></li>
+            </ul>
+        </header>
+        <div class="hero"></div>
+        <main>
+            <h2 class="judul">Faisal Fathu Rohman, S.KOM</h2>
+            <p class="penulis">di tulis oleh <a href="moveWeb/about.html">faisal</a> pada 1 januari 2024</p>
+
+            <div class="contact">
+                <div class="logo"><img src="/belajarCSS/img/githubpng.png" alt="Logo"></div>
+                <div class="contact-info"><a href="https://github.com/Faisalfathurohman08">https://github.com/Faisalfathurohman08</a></div>
+              </div>
+              <br>
+            <div class="contact1">
+                <div class="logo"><img src="/belajarCSS/img/ig.png" alt="Logo"></div>
+                <div class="contact-info"><a href="https://www.instagram.com/faisalfathurohman_?igsh=emY0d2gzMWJnbmY3&utm_source=qr">@faisalfathurohman_</a></div>
+              </div>
+              <br>
+            <div class="contact2">
+                <div class="logo"><img src="/belajarCSS/img/wa.png" alt="Logo"></div>
+                <div class="contact-info"><a href="https://github.com/Faisalfathurohman08">+6285693848074</a></div>
+              </div>
+        </main>
+        <footer>
+            <p>Copyright  <span id="tanggalwaktu"></span></p>
+            <script>
+            var dt = new Date();
+            document.getElementById("tanggalwaktu").innerHTML = dt.toDateString();
+            </script>
+        </footer>
+    </div>
+
+</body>
+</html>

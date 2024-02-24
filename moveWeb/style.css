@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* STYLE */
+body {
+	font: 40px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	color: #333;
+	background-image: url(/belajarCSS/img/bgweb.jpg);
+}
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: white;
+}
+
+header {
+	padding: 20px;
+}
+
+header .judul {
+	margin-top: 15px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 5px;
+	font-size: 30px;
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+	padding: 2px;
+}
+
+header a:hover {
+	background-color: blue;
+	color: white;
+}
+header li a.active {
+    background-color: #2473e3;
+    color: white;
+  }
+.hero {
+	height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+	background-image:url(/belajarCSS/img/isal.jpg);
+	background-size: cover;
+	background-position: 0px -95px;
+	border-top: 5px solid lightskyblue; 
+	border-bottom: 5px solid salmon; 
+}
+
+main {
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.judul {
+	font-weight: bold ;
+}
+
+.penulis {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	font-size: 15px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.penulis a {
+	text-decoration: none;
+}
+
+.penulis a:hover{
+	background-color: yellow;
+	color: black;
+}
+
+main p {
+	font-size: 20px;
+	text-align: justify;
+	margin-bottom: 5px;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-size: 30px; /* Mengatur elemen agar berada di tengah vertikal */
+  }
+.contact1 {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+	color: black; /* Mengatur elemen agar berada di tengah vertikal */
+  }
+  .contact1 img {
+	width: 40px;
+	margin: 0px 30px;
+	display: flex;
+  }
+.contact2 {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+	color: black; /* Mengatur elemen agar berada di tengah vertikal */
+  }
+  .contact2 img {
+	width: 60px;
+	margin: 17px;
+	display: flex;
+  }
+  .contact1 a{
+	color: rgb(7, 7, 91);
+  }
+  
+  .logo {
+    margin-right: 10px; /* Jarak antara logo dan teks */
+  }
+  
+  .logo img {
+    max-width: 100px; /* Mengatur lebar maksimum logo */
+  }
+  
+  .text {
+    font-weight: bold; /* Mengatur teks nama perusahaan tebal */
+  }
+
+  .contact-info a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: #2473e3;
+    color: #eaeaea;
+  }
